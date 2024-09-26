@@ -1,0 +1,36 @@
+:root{
+    --mint: #5EE0A7;
+    --pink: #FF807F;
+    --light-pink: #FFE8E8;
+    --purple: #BC2EFF;
+    --light-purple: #EEE2FF;
+    --gray: #454C53;
+    --light-gray:#F7F8F9;
+
+    height: 100%;
+}
+
+
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: 'Pretendard', sans-serif;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+p{
+    font-size: 1.2rem;
+}

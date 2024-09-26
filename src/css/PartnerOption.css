@@ -1,0 +1,35 @@
+.option-section {
+    padding: 2rem;
+    background-color: white;
+}
+  
+p{
+    color: var(--gray);
+    margin: 1.5rem 0rem;
+    font-size: 1.5rem;
+}
+  
+  .button-list {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .option-button {
+    background-color: var(--light-gray);
+    color: var(--gray);
+    border: none;
+    border-radius: 1rem;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+    cursor: pointer;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* 애니메이션 효과 */
+  }
+
+    
+  .option-button.selected {
+    background-color: var(--light-purple); /* 선택된 버튼의 배경색 (보라색) */
+    color: var(--purple); /* 선택된 버튼의 글씨색 (흰색) */
+  }
+  

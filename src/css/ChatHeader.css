@@ -1,0 +1,58 @@
+.header { 
+  justify-content: space-between;
+  background: linear-gradient(var(--light-pink), rgb(255, 247, 222));
+  font-weight: 400;
+  position: relative; /* absolute 배치 요소의 기준을 잡기 위해 relative로 설정 */
+}
+
+.header-content {
+  display: flex;
+  flex-direction: row; /* 중복된 flex-direction 제거 */
+  padding: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+  position: relative; /* absolute 요소를 자식 요소에 상대적으로 배치 */
+  z-index: 1; /* 텍스트와 배지가 이미지 위에 오도록 설정 */
+
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.status-badge {
+  width: 5rem;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  background-color: var(--mint);
+  color: white;
+  padding: 0.3rem 0.5rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.header-image img {
+  width: 30vw;
+  position: absolute;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  left: 70%; /* 적절한 위치로 배치 */
+  top: 0; /* 필요에 따라 위치 조정 */
+  z-index: 0; /* 이미지가 텍스트 뒤에 위치 */
+}
+
+.header-txt {
+  font-size: 1.3rem;
+  background-color: #FFEFE6;
+  padding: 2rem;
+  padding-right: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  position: relative; /* 기본 텍스트 영역을 이미지 위에 배치 */
+  z-index: 1; /* 이미지보다 위에 위치하도록 설정 */
+}

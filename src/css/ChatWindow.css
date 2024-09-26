@@ -1,0 +1,49 @@
+.chat-window{
+    background-color: white;
+    display: flex;
+    flex-direction: column; /* 세로로 메시지들을 정렬 */
+    padding: 2rem;
+    height: 45vh; /* 예시 높이 */
+    flex: 1;
+    overflow-y: scroll;
+}
+
+.message {
+    display: flex;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 60%; /* 메시지의 최대 너비 설정 */
+  }
+  
+  /* 유저 메시지는 오른쪽 정렬 */
+  .message-user-message {
+    display: flex;
+    align-self: flex-end; /* 오른쪽으로 정렬 */
+    background-color: var(--purple); /* 유저 메시지 배경색 */
+    color: white;
+    margin-left: auto; /* 왼쪽 여백 추가 */
+    padding: 0.5rem;
+    margin: 1rem 0rem 1rem ;
+    border-radius: 2rem 2rem 0rem 2rem;
+    font-size: 1.3rem;
+  }
+  
+  /* AI 메시지는 왼쪽 정렬 */
+  .message-ai-message {
+    display: flex;
+    align-self: flex-start; /* 왼쪽으로 정렬 */
+    background-color: #ECECEC; /* AI 메시지 배경색 */
+    margin-right: auto; /* 오른쪽 여백 추가 */
+    padding: 0.5rem;
+    margin: 1rem 0rem 1rem;
+    border-radius: 2rem 2rem 2rem 0rem;
+    font-size: 1.3rem;
+  }
+  
+  /* 공통 메시지 스타일 */
+  .message-content {
+    padding: 10px;
+    border-radius: 10px;
+    word-break: break-word; /* 긴 단어 줄 바꿈 */
+  }

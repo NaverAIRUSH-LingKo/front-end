@@ -1,0 +1,10 @@
+.tag {
+    background-color: var(--light-pink);
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    color: #ff8a8a;
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+  

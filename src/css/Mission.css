@@ -1,0 +1,28 @@
+/* Message.css */
+
+.mission-container {
+  align-items: center;
+  background-color: var(--light-gray);
+  border-radius: 8px;
+  padding: 10px 16px;
+  margin: 1rem;
+  max-width: 100%;
+  padding: 2rem
+}
+
+.mission-label {
+  background-color: var(--purple);
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  margin-top: 2rem;
+}
+
+.mission-content {
+  font-size: 1.2rem;
+  color: var(--gray);
+  margin: 0;
+  padding-top: 1rem
+}
